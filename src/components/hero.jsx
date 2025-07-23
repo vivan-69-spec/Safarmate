@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="w-full flex justify-center items-start pt-0">
       <div className="relative w-full h-[70vh] max-h-[70dvh] lg:h-screen lg:max-h-screen">
         <video
-          src="/"
+          src="/hero1 (1) (1).mp4"
           autoPlay
           loop
           muted={muted}
