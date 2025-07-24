@@ -110,7 +110,7 @@ export const SearchOver = ({ open, onClose }) => {
                   <div className="text-sm text-gray-700 mt-2 font-bold">
                     <h2 className="text-black text-xl">Internary</h2>
                     <ul className="list-disc text-lg pl-5 mt-1">
-                      <li>for customized internary!</li>
+                      <li>for budget friendly trip / tours!</li>
                       <div className="flex items-center gap-2">
                         <Button className="w-1/2" onClick={handleWhatsApp} >Send Enquiry</Button>
                         <Button size="icon">

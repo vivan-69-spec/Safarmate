@@ -5,11 +5,7 @@ import { Button } from './ui/button';
 
 const Footer = () => {
 
-    const handleWhatsApp = () => {
-        const phoneNumber = '+917906076344';
-        const message = encodeURIComponent("Hi! I'm interested in your services.");
-        window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
-    };
+    
     return (
         <div className='w-auto bg-transparent mt-10 p-7 z-50 text-white'>
             <div className=' flex justify-between text-white bg-transparent p-2 top-0 left-0 right-0 z-50 md:flex-row flex-col items-center gap-10 '>
@@ -82,7 +78,7 @@ const Footer = () => {
             <hr className='my-8 border-gray-600' />
 
             <div className=' text-center text-white mt-10 flex items-center justify-center'>
-                Made with ❤️ by <Button className="bg-transparent px-[4px] hover:bg-transparent hover:font-bold " onClick={handleWhatsApp} > Anshul</Button>
+                Made by ❤️ Safarmate 
             </div>
         </div>
     )
